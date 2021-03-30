@@ -158,7 +158,8 @@ progress {
 }
 
 textarea {
-  overflow: auto
+  overflow: auto;
+  
 }
 
 [type=checkbox],[type=radio] {
@@ -2723,7 +2724,7 @@ a,a:active,a:visited {
   width: 100%;
   margin-top: 1rem;
   line-height: 1.5rem;
-  border: 0;
+  /* border: 0; */
   border-radius: 0;
   border-bottom: 1px solid #4a4a4a;
   background: none;
@@ -3091,7 +3092,7 @@ dd:after {
   font-family: Open Sans Condensed,sans-serif;
   color: #222;
   font-weight: 700;
-  text-transform: uppercase
+
 }
 
 .ampstart-input input::placeholder,.ampstart-input input[type=email],.ampstart-input input[type=text],.ampstart-input label,textarea {
@@ -3099,7 +3100,7 @@ dd:after {
   font-family: Open Sans Condensed,sans-serif;
   color: #222;
   font-weight: 700;
-  text-transform: uppercase
+
 }
 
 .ampstart-input input[type=email],.ampstart-input input[type=text] {
@@ -3836,4 +3837,65 @@ amp-selector [option][selected] {
 
 .amp-mode-mouse .commerce-related-product:hover .commerce-related-product-name {
   text-decoration: underline
+}
+
+
+/* THIS IS CUSTOM CSS FOR NINJAQR */
+
+.qr-button{
+
+  height:50px;
+  width: 220px;
+  font-size: 25px;
+}
+#buttonscannow{
+  background-color: #19ff40;
+}
+
+#buttonstopscan{
+  background-color: #f88;
+  display: none;
+}
+
+#buttongotourl{
+  display: none;
+}
+
+#buttonchoosefile{
+  
+}
+
+#boxchoosefile{
+  height: 50px;
+  width: 465px;
+  padding: 10px;
+  background-color: #ff0;
+  vertical-align:middle;
+
+  display: none;
+}
+
+#qr-reader__dashboard_section_csr > span:nth-child(2) > button:nth-child(1){
+  height:100px;
+  width: 200px;
+  font-size: 25px;
+  background-color: #f9ab00;
+}
+
+#qr-reader{
+  width: 450px;
+  height: 450px;
+  border: 1px solid green;
+  display: none;
+  
+}
+
+textarea#qrmessage{
+  width: 450px;
+  font-size: 25px;
+  background-color:greenyellow;
+}
+
+.gocenter{
+  margin: auto;
 }

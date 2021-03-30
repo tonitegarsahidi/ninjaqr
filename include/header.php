@@ -1,10 +1,4 @@
 <!DOCTYPE html>
-
-<?php
-
-include "config.php";
-?>
-
 <!---
 Copyright 2017 The AMP Start Authors. All Rights Reserved.
 
@@ -24,13 +18,15 @@ limitations under the License.
 <html ⚡="" lang="en">
   <head>
     <meta charset="utf-8" />
-    <title><?=$_CONFIG_SITETITLE?></title>
+    <title><?=$_PAGE_TITLE?> - <?=$_CONFIG_SITETITLE?></title>
     <link
       rel="canonical"
       href="https://www.ampstart.com/templates/e-commerce/landing.amp"
     />
     <meta name="viewport" content="width=device-width" />
     <meta name="amp-google-client-id-api" content="googleanalytics" />
+
+    
 
     <script async="" src="https://cdn.ampproject.org/v0.js"></script>
 
@@ -111,6 +107,3 @@ limitations under the License.
     ?>
 
     </style>
-
-  </head>
-  <body>

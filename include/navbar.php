@@ -1,4 +1,8 @@
-   <!-- Start Navbar -->
+   
+  </head>
+  <body>
+    
+  <!-- Start Navbar -->
    <header
       class="ampstart-headerbar fixed flex justify-start items-center top-0 left-0 right-0 pl2 pr4 pt2 md-pt0"
     >
@@ -24,18 +28,23 @@
         </svg>
       </div>
       <a
-        href="landing.amp.html"
+        href="index.php"
         class="text-decoration-none inline-block mx-auto ampstart-headerbar-home-link mb1 md-mb0"
       >
-        <amp-img
+
+      <h2 class="mb0"><?=$_CONFIG_HEADERTITLE?></h2>
+      <h4 class="mt0 subtitle"><?=$_CONFIG_HEADERSUBTITLE?></h4>
+      
+        <!-- <amp-img
           src="img/e-commerce/logo.png"
           width="96"
           height="27"
           layout="fixed"
           class="my0 mx-auto"
           alt=""
-        ></amp-img>
+        ></amp-img> -->
       </a>
+      
       <!--
       TODO: currently "fixeditems" is an array, therefore it's not possible to
       add additional classes to it. An alternative solution would be to make it
@@ -55,7 +64,7 @@
         class="ampstart-headerbar-fixed center m0 p0 flex justify-center nowrap absolute top-0 right-0 pt2 pr3"
       >
         <div class="mr2"></div>
-        <a
+        <!-- <a
           href="cart.amp.html"
           class="text-decoration-none mr2 ampstart-headerbar-fixed-link"
         >
@@ -69,6 +78,6 @@
               </g>
             </svg>
           </div>
-        </a>
+        </a> -->
       </div>
     </header>
