@@ -25,6 +25,7 @@ limitations under the License.
     />
     <meta name="viewport" content="width=device-width" />
     <meta name="amp-google-client-id-api" content="googleanalytics" />
+    <meta name="google-site-verification" content="nvPIY2IcYMgQYXJCOuCCsQDGCGK87NE2hfD8AtLk0qY" />
 
     
 
@@ -94,11 +95,11 @@ limitations under the License.
       src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"
       async=""
     ></script>
-
+<!-- 
     <link
       href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700"
       rel="stylesheet"
-    />
+    /> -->
 
 
     <style amp-custom="">

@@ -7,7 +7,7 @@
     
     
     $_CONFIG_HEADERTITLE = "Ninja QR";
-    $_CONFIG_HEADERSUBTITLE = "Best Online QR Code Scanner and Generator";
+    $_CONFIG_HEADERSUBTITLE = "Online QR Code Scanner and Generator";
     
     $_CONFIG_METAAUTHOR = "Toni Tegar Sahidi";
     $_CONFIG_METADESCRIPTION = "Ninja QR is Free Online QR Code Scanner and QR Code Generator. Click and use. No Install!";

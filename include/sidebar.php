@@ -19,7 +19,7 @@
       <nav class="ampstart-sidebar-nav ampstart-nav">
         <ul class="list-reset m0 p0 ampstart-label">
           <li>
-            <a href="landing.amp.html" class="text-decoration-none block 22">
+            <a href="qr-code-scanner.php" class="text-decoration-none block 22">
               <amp-img
                 src="img/e-commerce/logo-nav.png"
                 width="279"
@@ -34,7 +34,7 @@
             </a>
           </li>
           <li class="ampstart-nav-item">
-            <a class="ampstart-nav-link" href="product-listing.amp.html"
+            <a class="ampstart-nav-link" href="qr-code-scanner.php"
               >QR Code Scanner</a
             >
           </li>
@@ -44,18 +44,16 @@
             >
           </li>
           <li class="ampstart-nav-item">
-            <a class="ampstart-nav-link" href="blog-listing.amp.html">Blog</a>
+            <a class="ampstart-nav-link" href="/blog">Blog</a>
           </li>
           <li class="ampstart-nav-item">
-            <a class="ampstart-nav-link" href="contact.amp.html">Contact us</a>
+            <a class="ampstart-nav-link" href="about-us.php">About us</a>
           </li>
         </ul>
       </nav>
 
       <h3 class="h7 block pt3">follow us</h3>
-      <ul
-        class="ampstart-social-follow list-reset flex justify-around items-center flex-wrap m0 mb4"
-      >
+      <ul class="ampstart-social-follow list-reset flex justify-around items-center flex-wrap m0 mb4">
         <li>
           <a
             href="#"

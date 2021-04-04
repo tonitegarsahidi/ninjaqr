@@ -22,17 +22,19 @@ include "include/sidebar.php";
 
 
 <main id="content" role="main" class="main pb2">
-  <section class="md-col-6 px2 pt2 pb5 md-px4 md-pt4 md-pb7 gocenter">
+  <section class="md-col-6 px2 pt2 pb5 md-px1 md-pt1 md-pb7 text-center gocenter">
     <div class="flex flex-column">
       <h1 class="h3 mb2">Online QR CODE Scanner and Reader</h1>
       <div id="boxhints" class="mb2">
         <p>
-          Click on SCAN BUTTON to start Scanning using camera. Align your camera into the QR Code. 
+          Click on "<strong>SCAN QR</strong>" to start Scanning using camera. <br/>Align your camera into the QR Code. 
         </p>
         <p>
-        You can also Upload Image to Read QR Code from an image.
+        Otherwise you can <strong> Upload Image</strong> which contain QR Code to read QR from image.
         </p>
         <p>Once the Code is detected, the Extracted information can be seen below.</p>
+
+        <p>Seel Also on our Online <a href="qr-code-generator.php" title="Online QR Code Generator"> Online QR Code Generator</a> to Create QR Code</p>
 
       </div>
       
@@ -40,7 +42,7 @@ include "include/sidebar.php";
       <div>
 
         <button type="button" id="buttonscannow" class="ampstart-btn ampstart-btn-secondary caps qr-button">
-          SCAN NOW
+          SCAN QR
         </button>
         
         <button type="button" id="buttonstopscan" class="ampstart-btn ampstart-btn-secondary caps qr-button">
@@ -215,7 +217,7 @@ include "include/footer.php";
           { facingMode: "environment" },     // retreived in the previous step.
           {
             fps: 10,    // sets the framerate to 10 frame per second
-            qrbox: 250  // sets only 250 X 250 region of viewfinder to
+            qrbox: 350  // sets only 250 X 250 region of viewfinder to
                         // scannable, rest shaded.
           },
           displayMessage,
@@ -273,7 +275,7 @@ include "include/footer.php";
 
   //DISPLAY ERROR MESSAGE
   function displayErrorMessage(errormessage){
-    textarearesult.value = "Error in reading QR Code :(   \n" +  errormessage;
+    //textarearesult.value = "Error in reading QR Code :(   \n" +  errormessage;
     console.log("QR Code is AFC - Away From Camera :p , thanks for watching this log console");
     console.log("Losers quite when they fail, winners fail until they succeed - Robert T Kiyosaki")
   }

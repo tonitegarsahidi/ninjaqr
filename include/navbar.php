@@ -3,8 +3,8 @@
   <body>
     
   <!-- Start Navbar -->
-   <header
-      class="ampstart-headerbar fixed flex justify-start items-center top-0 left-0 right-0 pl2 pr4 pt2 md-pt0"
+  <header
+      class="ampstart-headerbar flex  items-center top-0 left-0 right-0 pl2 pr4 pt2 md-pt0"
     >
       <div
         role="button"
@@ -32,8 +32,8 @@
         class="text-decoration-none inline-block mx-auto ampstart-headerbar-home-link mb1 md-mb0"
       >
 
-      <h2 class="mb0"><?=$_CONFIG_HEADERTITLE?></h2>
-      <h4 class="mt0 subtitle"><?=$_CONFIG_HEADERSUBTITLE?></h4>
+      <h2 class="mb0 text-center"><?=$_CONFIG_HEADERTITLE?></h2>
+      <span class="mt0 subtitle  text-center"><?=$_CONFIG_HEADERSUBTITLE?></s>
       
         <!-- <amp-img
           src="img/e-commerce/logo.png"
@@ -44,7 +44,7 @@
           alt=""
         ></amp-img> -->
       </a>
-      
+
       <!--
       TODO: currently "fixeditems" is an array, therefore it's not possible to
       add additional classes to it. An alternative solution would be to make it
@@ -80,4 +80,4 @@
           </div>
         </a> -->
       </div>
-    </header>
+  </header>

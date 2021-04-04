@@ -8,7 +8,8 @@
 }
 
 body {
-  margin: 0
+  margin: 0;
+
 }
 
 article,aside,footer,header,nav,section {
@@ -1321,7 +1322,7 @@ canvas {
 }
 
 body {
-  background: #fff;
+  background: #eee;
   color: #222;
   font-family: Cardo,serif;
   min-width: 315px;
@@ -2596,7 +2597,7 @@ a,a:active,a:visited {
 }
 
 .ampstart-headerbar+:not(amp-sidebar),.ampstart-headerbar+amp-sidebar+* {
-  margin-top: 3.5rem
+  margin-top: 1rem
 }
 
 .ampstart-headerbar-nav .ampstart-nav-item {
@@ -3237,7 +3238,7 @@ amp-selector [option][selected] {
 }
 
 .main {
-  margin-top: 3.5rem
+  /* margin-top: 3.5rem */
 }
 
 @media (min-width:52.06rem) {
@@ -3246,7 +3247,7 @@ amp-selector [option][selected] {
   }
 
   .ampstart-headerbar+:not(amp-sidebar),.ampstart-headerbar+amp-sidebar+*,.main {
-    margin-top: 5rem
+    margin-top: 1rem
   }
 }
 
@@ -3842,14 +3843,17 @@ amp-selector [option][selected] {
 
 /* THIS IS CUSTOM CSS FOR NINJAQR */
 
-.qr-button{
+.subtitle{
+  color: darkgreen;
+}
 
-  height:50px;
-  width: 220px;
-  font-size: 25px;
+.qr-button{
+  min-height:40px;
+  font-size: 20px;
+  padding: 10px;
 }
 #buttonscannow{
-  background-color: #19ff40;
+  background-color: greenyellow;
 }
 
 #buttonstopscan{
@@ -3861,16 +3865,14 @@ amp-selector [option][selected] {
   display: none;
 }
 
-#buttonchoosefile{
-  
-}
 
 #boxchoosefile{
   height: 50px;
-  width: 465px;
+  width: 450px;
   padding: 10px;
   background-color: #ff0;
   vertical-align:middle;
+  overflow: scroll;
 
   display: none;
 }
@@ -3884,18 +3886,35 @@ amp-selector [option][selected] {
 
 #qr-reader{
   width: 450px;
-  height: 450px;
-  border: 1px solid green;
+  max-height: 1600px;
+  /* border: 1px solid green; */
   display: none;
-  
+  margin: auto;
 }
 
 textarea#qrmessage{
-  width: 450px;
+  width: 90%;
   font-size: 25px;
   background-color:greenyellow;
 }
 
 .gocenter{
   margin: auto;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.text-right{
+  text-align: right;
+}
+
+#qrcodebox{
+  width: 380px;
+  height: 380px;
+  margin: auto;
+  text-align: center;
+
+
 }
