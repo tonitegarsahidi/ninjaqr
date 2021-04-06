@@ -103,6 +103,20 @@
             </ul>
           </li>
           <li class="flex-auto right-align">
+
+          <a href="qr-code-scanner.php" class="text-decoration-none block 22">
+              <amp-img
+                src="img/ninjaqr/ninjaqr-logo-invert-small.png"
+                width="163"
+                height="148"
+                layout="responsive"
+                class="ampstart-sidebar-nav-image inline-block mb4"
+                alt="Company logo"
+                noloading=""
+              >
+                <div placeholder="" class="commerce-loader"></div>
+              </amp-img>
+
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 137 84.3"

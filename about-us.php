@@ -26,8 +26,8 @@
         class="commerce-blog-wrapper col-12 md-col-8 px2 pt2 pb3 md-px4 md-pt6 md-pb7"
       >
         <amp-img
-          src="../img/e-commerce/blog-narrow-01.png"
-          srcset="../img/e-commerce/blog-narrow-01.png 750w,../img/e-commerce/blog-wide-01.png 1280w"
+          src="img/e-commerce/blog-narrow-01.png"
+          srcset="img/e-commerce/blog-narrow-01.png 750w,img/e-commerce/blog-wide-01.png 1280w"
           width="750"
           height="427"
           layout="responsive"
@@ -37,9 +37,9 @@
           <div placeholder="" class="commerce-loader"></div>
         </amp-img>
         <div class="mt3">
-          <h1 class="h3">Just a Code Scanner</h1>
-          <time datetime="2017-03-31T00:00" class="block mb2"
-            >31st March 2017</time
+          <h1 class="h3">Just a QR Code Scanner & Generator</h1>
+          <time datetime="2021-03-31T00:00" class="block mb2"
+            >31st March 2021</time
           >
           <p class="mb5">
             Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
@@ -60,8 +60,8 @@
         </div>
         <amp-img
           class="mb3"
-          src="../img/e-commerce/blog-narrow-05.png"
-          srcset="../img/e-commerce/blog-narrow-05.png 750w,../img/e-commerce/blog-wide-05.png 1280w"
+          src="img/e-commerce/blog-narrow-05.png"
+          srcset="img/e-commerce/blog-narrow-05.png 750w,img/e-commerce/blog-wide-05.png 1280w"
           width="750"
           height="427"
           layout="responsive"
@@ -72,8 +72,8 @@
         </amp-img>
         <amp-img
           class="mb5"
-          src="../img/e-commerce/blog-narrow-06.png"
-          srcset="../img/e-commerce/blog-narrow-06.png 750w,../img/e-commerce/blog-wide-06.png 1280w"
+          src="img/e-commerce/blog-narrow-06.png"
+          srcset="img/e-commerce/blog-narrow-06.png 750w,img/e-commerce/blog-wide-06.png 1280w"
           width="750"
           height="427"
           layout="responsive"

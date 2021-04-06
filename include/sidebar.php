@@ -21,9 +21,9 @@
           <li>
             <a href="qr-code-scanner.php" class="text-decoration-none block 22">
               <amp-img
-                src="img/e-commerce/logo-nav.png"
-                width="279"
-                height="175"
+                src="img/ninjaqr/ninjaqr-logo-normal-small.png"
+                width="163"
+                height="148"
                 layout="responsive"
                 class="ampstart-sidebar-nav-image inline-block mb4"
                 alt="Company logo"

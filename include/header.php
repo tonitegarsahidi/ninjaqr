@@ -18,7 +18,7 @@ limitations under the License.
 <html ⚡="" lang="en">
   <head>
     <meta charset="utf-8" />
-    <title><?=$_PAGE_TITLE?> - <?=$_CONFIG_SITETITLE?></title>
+    <title><?=$_PAGE_TITLE?></title>
     <link
       rel="canonical"
       href="https://www.ampstart.com/templates/e-commerce/landing.amp"
