@@ -40,8 +40,6 @@ We use [SemVer](http://semver.org/) for versioning. Current version is still pre
 
 * **Toni Tegar Sahidi** - *CV Ruang Rimbun Indonesia* - [See My Github](https://github.com/tonitegarsahidi)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
 ## License
 
 This project is licensed under the MIT License.
