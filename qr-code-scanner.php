@@ -22,19 +22,19 @@ include "include/sidebar.php";
 
 
 <main id="content" role="main" class="main pb2">
-  <section class="md-col-6 px2 pt2 pb5 md-px1 md-pt1 md-pb7 text-center gocenter">
+  <section class="md-col-6 px2 pt2 pb5 md-px1 md-pt1 md-pb7 text-center gocenter ">
     <div class="flex flex-column">
       <h1 class="h3 mb2">Online QR CODE Scanner and Reader</h1>
       <div id="boxhints" class="mb2">
         <p>
-          Click on "<strong>SCAN QR</strong>" to start Scanning using camera. <br/>Align your camera into the QR Code. 
+          TO SCAN : Click on "<strong>SCAN QR</strong>" to start Scanning using camera. <br/>Align your camera into the QR Code. 
         </p>
         <p>
-        Otherwise you can <strong> Upload Image</strong> which contain QR Code to read QR from image.
+        TO READ FROM IMAGE : Click <strong> "Upload Image"</strong> and choose image which contain QR Code.
         </p>
         <p>Once the Code is detected, the Extracted information can be seen below.</p>
 
-        <p>Seel Also on our Online <a href="qr-code-generator.php" title="Online QR Code Generator"> Online QR Code Generator</a> to Create QR Code</p>
+        <p>Seel Also on our Online <a href="qr-code-generator.php" title="Online QR Code Generator"><strong>Online QR Code Generator</strong></a> to Create QR Code</p>
 
       </div>
       
@@ -115,6 +115,7 @@ include "include/footer.php";
   const buttonstopscan = document.querySelector("#buttonstopscan");
   const buttonuploadimage = document.querySelector("#buttonuploadimage");
 
+  const boxhints = document.querySelector("#boxhints");
   const boxchoosefile = document.querySelector("#boxchoosefile");
 
   const buttoncopytext = document.querySelector("#buttoncopytext");
@@ -142,12 +143,14 @@ include "include/footer.php";
     buttonstopscan.style.display = "inline";
     buttonscannow.style.display = "none";
     boxchoosefile.style.display = "none";
+    boxhints.style.display = "none";
     startScan();
   };
 
   buttonstopscan.onclick = function(){
     buttonstopscan.style.display = "none";
     buttonscannow.style.display = "inline";
+    boxhints.style.display = "block";
     stopScan();
   };
 
@@ -187,9 +190,7 @@ include "include/footer.php";
 
   //QR CODE FUNCTION IS HERE
 
-  //INITIALIZE QR CODE SCANNER FIRST
-
-
+  //STOP SCANNING
   function stopScan(){
 
     if(html5QrCode != null){
@@ -204,11 +205,13 @@ include "include/footer.php";
           // Stop failed, handle it.
         });
     }
-
-
   }
 
+
+  // START SCANNING
   function startScan(){
+    emptyTextArea();
+
     html5QrCode = new Html5Qrcode("qr-reader");
     console.log("START SCANNING USING CAMERA");
     // If you want to prefer back camera
@@ -231,9 +234,13 @@ include "include/footer.php";
 
   }
 
+  //ON FILE INPUT CHOOSE IMAGE
   const fileinput = document.getElementById('qr-choose-file');
 
   fileinput.addEventListener('change', e => {
+
+    emptyTextArea();
+
     if (e.target.files.length == 0) {
       // No file selected, ignore 
       return;
@@ -245,11 +252,17 @@ include "include/footer.php";
     if(html5QrCode == null){
       html5QrCode = new Html5Qrcode("qr-reader");
     }
+
     qrreaderbox.style.display = "block";
     html5QrCode.scanFile(imageFile, true)
     .then(displayMessage)
     .catch(displayErrorMessage);
   });
+
+  //EMPTYING THE TEXT AREA
+  function emptyTextArea(){
+    textarearesult.value = "";
+  }
 
 
   //=================== SUCCESSFULL QR CODE SCANNING GOES HERE =============================

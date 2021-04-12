@@ -3446,7 +3446,7 @@ amp-selector [option][selected] {
 }
 
 .commerce-hero-content {
-  padding: 3rem 1.5rem
+  padding: 1rem 1rem
 }
 
 .amp-mode-mouse .commerce-hero-image {
@@ -3634,7 +3634,8 @@ amp-selector [option][selected] {
 }
 
 .commerce-blog-wrapper {
-  background-color: #fff
+  background-color: #fff;
+  margin: auto;
 }
 
 .commerce-blog-wrapper p {
@@ -3867,12 +3868,11 @@ amp-selector [option][selected] {
 
 
 #boxchoosefile{
-  height: 50px;
-  width: 450px;
+  /* width: 400px; */
+  margin: auto;
   padding: 10px;
   background-color: #ff0;
   vertical-align:middle;
-  overflow: scroll;
 
   display: none;
 }
@@ -3890,6 +3890,7 @@ amp-selector [option][selected] {
   /* border: 1px solid green; */
   display: none;
   margin: auto;
+  vertical-align: top;
 }
 
 textarea#qrmessage{
@@ -3915,6 +3916,5 @@ textarea#qrmessage{
   height: 380px;
   margin: auto;
   text-align: center;
-
-
 }
+

@@ -33,7 +33,7 @@ include "include/sidebar.php";
         <p>
         To <strong> Save the QR Code</strong> simply right click on QR Code then click Save Image. Or copy it to your document editor.
         </p>
-        <p>Seel Also on our Online <a href="qr-code-scanner.php" title="Online QR Code Scanner and Reader"> QR Code Scanner and Reader to read QR Code</a></p>
+        <p>Seel Also on our Online <a href="qr-code-scanner.php" title="Online QR Code Scanner and Reader"><strong>QR Code Scanner and Reader</strong></a> to read QR Code</p>
       </div>
       
 

@@ -2,10 +2,10 @@
     
     include "include/config.php";
 
-    $_PAGE_TITLE = "About NinjaQR Online QR Code Scanner and Generator!";
+    $_PAGE_TITLE = "Contact Team NinjaQR";
  
     $_CONFIG_METAAUTHOR = "Toni Tegar Sahidi";
-    $_CONFIG_METADESCRIPTION = "About NinjaQR - Online QR Code Scanner and Generator";
+    $_CONFIG_METADESCRIPTION = "Contact Team NinjaQR - Online QR Code Scanner and Generator";
     $_CONFIG_METAKEYWORD = "NinjaQR, NinjaQR Company, QR Code Company";
   
   include "include/header.php";
@@ -37,19 +37,33 @@
           <div placeholder="" class="commerce-loader"></div>
         </amp-img>
         <div class="mt3">
-          <h1 class="h3">About NinjaQR - We Are QR Code Ninja!</h1>
+          <h1 class="h3">Contact Our NinjaQR Team!</h1>
           <!-- <time datetime="2021-03-31T00:00" class="block mb2">31st March 2021</time> -->
           <p class="mb5">
-          NinjaQR is an online web apps which focus on QR Code Solution. Currently we are focusing on QR Code Scanner and QR Code Generator. All for Free and will always free. You can always Rely on NinjaQR as QR Code Scanner or as QR Code Generator. No Install, and all for free. 
+          Found something interesting and want to get touch to us?
+          Contact Us through some of methods below. 
           </p>
 
-          <p class="mb5">
-          NinjaQR is built by CV Ruang Rimbun Indonesia, an IT company in Indonesia. See about "Why we built NinjaQR" Article for background information. See also our "Contact Us" page if you need to contact us.
-          </p>
+          <address>
+          <strong>NinjaQR Divison</strong> <br/>
+          CV Ruang Rimbun Indonesia<br/>
+          Perum Latansa, Genting, Merjosari, <br/> 
+          Kota Malang, Jawa Timur<br/>
+          Indonesia
+          </address>
 
-          <p class="mb5">
-          We Always care about your privacy policy! We don't use cookies, but we use advertisement from our partner, in which they may use your cookies. See about Privacy Policy section for further information. All QR Code scanned and generated in this website arenot saved by us. The only data which we may collect are number of QR Code Generated and scanned by this website.
-          </p>
+          <br/><br/><br/>
+          <strong>
+          You can also contact us through following : 
+          </strong>
+
+          <br/>
+
+          <ul>
+            <li>Phone : <a href="tel:+6282140360359">+62-821-4369-4121</a> </li>
+            <li>Email : tumbuh AT ruangrimbun DOT co DOT id </li>
+            <li>Github : <a href="https://github.com/tonitegarsahidi/ninjaqr/" target="_blank" title="NinjaQR">NinjaQR on GitHub</a> </li>
+          </ul>
 
         </div>
         <!-- <amp-img

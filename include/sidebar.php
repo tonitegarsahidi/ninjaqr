@@ -19,7 +19,7 @@
       <nav class="ampstart-sidebar-nav ampstart-nav">
         <ul class="list-reset m0 p0 ampstart-label">
           <li>
-            <a href="qr-code-scanner.php" class="text-decoration-none block 22">
+            <a href="https://ninjaqr.com" class="text-decoration-none block 22">
               <amp-img
                 src="img/ninjaqr/ninjaqr-logo-normal-small.png"
                 width="163"
@@ -54,7 +54,7 @@
 
       <h3 class="h7 block pt3">follow us</h3>
       <ul class="ampstart-social-follow list-reset flex justify-around items-center flex-wrap m0 mb4">
-        <li>
+        <!-- <li>
           <a
             href="#"
             target="_blank"
@@ -71,10 +71,10 @@
                 d="M47.5 43c0 1.2-.9 2.1-2.1 2.1h-10V30h5.1l.8-5.9h-5.9v-3.7c0-1.7.5-2.9 3-2.9h3.1v-5.3c-.6 0-2.4-.2-4.6-.2-4.5 0-7.5 2.7-7.5 7.8v4.3h-5.1V30h5.1v15.1H10.7c-1.2 0-2.2-.9-2.2-2.1V8.3c0-1.2 1-2.2 2.2-2.2h34.7c1.2 0 2.1 1 2.1 2.2V43"
                 class="ampstart-icon ampstart-icon-fb"
               ></path></svg></a>
-        </li>
+        </li> -->
         <li>
           <a
-            href="#"
+            href="https://www.instagram.com/ninjaqr_official/"
             target="_blank"
             class="inline-block p1"
             aria-label="Link to AMP HTML Instagram"
@@ -111,7 +111,7 @@
       </ul>
 
       <ul class="ampstart-sidebar-faq list-reset m0">
-        <li class="ampstart-faq-item">
+        <!-- <li class="ampstart-faq-item">
           <a href="#" class="text-decoration-none">Size Guide</a>
         </li>
         <li class="ampstart-faq-item">
@@ -121,7 +121,7 @@
           <a href="#" class="text-decoration-none"
             >Cookie &amp; privacy policy</a
           >
-        </li>
+        </li> -->
       </ul>
     </amp-sidebar>
     <!-- End Sidebar -->
