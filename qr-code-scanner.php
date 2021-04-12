@@ -21,7 +21,7 @@ include "include/sidebar.php";
 ?>
 
 
-<main id="content" role="main" class="main pb2">
+<main id="content" role="main" class="main pb2  bgwhite ">
   <section class="md-col-6 px2 pt2 pb5 md-px1 md-pt1 md-pb7 text-center gocenter ">
     <div class="flex flex-column">
       <h1 class="h3 mb2">Online QR CODE Scanner and Reader</h1>

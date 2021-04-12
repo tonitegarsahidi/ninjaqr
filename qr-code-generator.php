@@ -21,17 +21,22 @@ include "include/sidebar.php";
 ?>
 
 
-<main id="content" role="main" class="main pb2">
+<main id="content" role="main" class="main pb2 bgwhite">
 
   <section class="md-col-6 pb5 md-px1 md-pt1 md-pb7 text-center gocenter">
     <div class="flex flex-column">
       <h1 class="h3 mb2">Online QR Code Generator</h1>
       <div id="boxhints" class="mb2">
         <p>
-          To Generate the QR Code, fill the form with text you want to build QR Code. Click Create QR. The QR Code will be generated below.
+          To Generate the QR Code:,  
         </p>
+        <ol>
+          <li>Fill the form with Text/URL you want to build QR Code.</li>
+          <li>Click "Create QR" to generate QR Code on screen.</li>
+          <li>Click "Download QR" to download the image in new tab.</li>
+        </ol>
         <p>
-        To <strong> Save the QR Code</strong> simply right click on QR Code then click Save Image. Or copy it to your document editor.
+        To <strong> Save the QR Code : </strong> right click on QR Code then click Save Image. <br/>Or copy it to your image editor.
         </p>
         <p>Seel Also on our Online <a href="qr-code-scanner.php" title="Online QR Code Scanner and Reader"><strong>QR Code Scanner and Reader</strong></a> to read QR Code</p>
       </div>

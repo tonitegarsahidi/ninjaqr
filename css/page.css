@@ -3247,7 +3247,8 @@ amp-selector [option][selected] {
   }
 
   .ampstart-headerbar+:not(amp-sidebar),.ampstart-headerbar+amp-sidebar+*,.main {
-    margin-top: 1rem
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
 }
 
@@ -3918,3 +3919,7 @@ textarea#qrmessage{
   text-align: center;
 }
 
+
+.bgwhite{
+  background-color: #fff;
+}
