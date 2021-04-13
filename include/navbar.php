@@ -28,7 +28,7 @@
         </svg>
       </div>
       <a
-        href="index.php"
+        href="https://ninjaqr.com"
         class="text-decoration-none inline-block mx-auto ampstart-headerbar-home-link mb1 md-mb0"
       >
 

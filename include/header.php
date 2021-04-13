@@ -19,9 +19,20 @@ limitations under the License.
   <head>
     <meta charset="utf-8" />
     <title><?=$_PAGE_TITLE?></title>
+    <?php  
+        if(isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on')   
+             $url = "https://";   
+        else  
+             $url = "http://";   
+        // Append the host(domain name, ip) to the URL.   
+        $url.= $_SERVER['HTTP_HOST'];   
+        
+        // Append the requested resource location to the URL   
+        $url.= $_SERVER['REQUEST_URI'];      
+    ?>   
     <link
       rel="canonical"
-      href="https://www.ampstart.com/templates/e-commerce/landing.amp"
+      href="<?php echo $url ?>"
     />
     <meta name="viewport" content="width=device-width" />
     <meta name="amp-google-client-id-api" content="googleanalytics" />

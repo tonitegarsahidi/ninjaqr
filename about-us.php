@@ -44,11 +44,11 @@
           </p>
 
           <p class="mb5">
-          NinjaQR is built by CV Ruang Rimbun Indonesia, an IT company in Indonesia. See about "Why we built NinjaQR" Article for background information. See also our "Contact Us" page if you need to contact us.
+          NinjaQR is built by CV Ruang Rimbun Indonesia, an IT company in Indonesia. See about <a href="https://ninjaqr.com/blog/2021/04/12/why-i-built-ninjaqr/" target="_blank">"Why we built NinjaQR"</a> Article for background information. See also our "Contact Us" page if you need to contact us.
           </p>
 
           <p class="mb5">
-          We Always care about your privacy policy! We don't use cookies, but we use advertisement from our partner, in which they may use your cookies. See about Privacy Policy section for further information. All QR Code scanned and generated in this website arenot saved by us. The only data which we may collect are number of QR Code Generated and scanned by this website.
+          We Always care about your privacy policy! We don't use cookies, but we use advertisement from our partner, in which they may use your cookies. See about Privacy Policy section for further information. All QR Code scanned and generated in this website are not saved by us. The only data which we may collect are number of QR Code Generated and scanned by this website.
           </p>
 
         </div>
