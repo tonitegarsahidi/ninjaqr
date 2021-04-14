@@ -2,10 +2,10 @@
     
     include "include/config.php";
 
-    $_PAGE_TITLE = "Contact Team NinjaQR";
+    $_PAGE_TITLE = "Contact Team NinjaQR - QR Code Solution Specialist";
  
     $_CONFIG_METAAUTHOR = "Toni Tegar Sahidi";
-    $_CONFIG_METADESCRIPTION = "Contact Team NinjaQR - Online QR Code Scanner and Generator";
+    $_CONFIG_METADESCRIPTION = "Contact Team NinjaQR - Online QR Code Scanner and Generator. We are open for any custom development for QR Code software solution.";
     $_CONFIG_METAKEYWORD = "NinjaQR, NinjaQR Company, QR Code Company";
   
   include "include/header.php";

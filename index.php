@@ -2,11 +2,10 @@
     
     include "include/config.php";
 
-    $_PAGE_TITLE = $_CONFIG_SITETITLE." - Online QR Code Scanner and Generator";
+    $_PAGE_TITLE = $_CONFIG_SITETITLE." - Free Online QR Code Scanner and Generator";
  
-    $_CONFIG_METAAUTHOR = "Toni Tegar Sahidi";
-    $_CONFIG_METADESCRIPTION = "Ninja QR is Free Online QR Code Scanner and QR Code Generator. Click and use. No Install!";
-    $_CONFIG_METAKEYWORD = "QR Code, QR Code Scanner, QR Code Generator, NinjaQR, QRCode";
+    $_CONFIG_METADESCRIPTION = "Ninja QR is Free Online QR Code Scanner and QR Code Generator. Accurate and lightning Fast. QR Code Solution you can trust";
+    $_CONFIG_METAKEYWORD = "QR Code, QR Code Scanner, QR Code Generator, NinjaQR, QRCode, QR Code Solution";
   
   include "include/header.php";
   ?>
@@ -99,10 +98,10 @@
                 QR Code Generator
               </h2>
               <p class="commerce-hero-content-body">
-                Create QR Code easily. Type any text you want, we will generate the QR Code for you in a blitz!. Online, Free, no need to install anything.
+                Create QR Code easily. Type any text you want, we will generate the QR Code for you in a blitz!. Online, Free, no need to install anything. 
               </p>
               <div class="ampstart-btn ampstart-btn-secondary caps md-ml4">
-                Create QR Code
+                Generate QR Code
               </div>
             </div>
           </div>

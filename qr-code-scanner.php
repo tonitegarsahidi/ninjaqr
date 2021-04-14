@@ -2,10 +2,10 @@
 include "include/config.php";
 
 //THIS ONE IS THE SETTING FOR CURRENT PAGE
-$_PAGE_TITLE = "Online QR Code Scanner and Reader";
+$_PAGE_TITLE = "Online QR Code Scanner and Reader - Accurate, No Install!";
 //META SEO
-$_CONFIG_METAAUTHOR = "Toni Tegar Sahidi";
-$_CONFIG_METADESCRIPTION = "Free Online QR Code Scanner from web. Just Scan and copy the QR message. No need to install.";
+
+$_CONFIG_METADESCRIPTION = "Free Online QR Code Scanner and Reader. Just Scan from Camera or Upload QR Code in image. NinjaQR will Read the code for you.";
 $_CONFIG_METAKEYWORD = "QR Code, QR Code Scanner, QR Code reader, QRCode Scanner, QRCode reader, 2d barcode scanner, NinjaQR, QRCode";
 
 

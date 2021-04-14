@@ -2,10 +2,10 @@
 include "include/config.php";
 
 //THIS ONE IS THE SETTING FOR CURRENT PAGE
-$_PAGE_TITLE = "Online QR Code Generator, Free, Fast, No install";
+$_PAGE_TITLE = "Online QR Code Generator - Free, Fast, No install";
 //META SEO
-$_CONFIG_METAAUTHOR = "Toni Tegar Sahidi - CV Ruang Rimbun Indonesia";
-$_CONFIG_METADESCRIPTION = "Online QR Code Generator Online. Create QR Code from web online. 100% Free. Just Fill the text and We'll generate the QR Code for you.";
+
+$_CONFIG_METADESCRIPTION = "Free QR Code Generator Online. Create QR Code fast and accurate. Type the text and We'll generate the QR Code in instant.";
 $_CONFIG_METAKEYWORD = "QR Code Generator, QR Code Maker, QR Code builder, QR code make NinjaQR, Best QR Code Apps Online";
 
 

@@ -28,7 +28,9 @@ limitations under the License.
         $url.= $_SERVER['HTTP_HOST'];   
         
         // Append the requested resource location to the URL   
-        $url.= $_SERVER['REQUEST_URI'];      
+        $url.= $_SERVER['REQUEST_URI'];   
+        
+        $url = filter_var($url, FILTER_SANITIZE_URL);
     ?>   
     <link
       rel="canonical"
@@ -37,6 +39,10 @@ limitations under the License.
     <meta name="viewport" content="width=device-width" />
     <meta name="amp-google-client-id-api" content="googleanalytics" />
     <meta name="google-site-verification" content="nvPIY2IcYMgQYXJCOuCCsQDGCGK87NE2hfD8AtLk0qY" />
+
+    <meta name="author" content="<?=$_CONFIG_METAAUTHOR?>" />
+    <meta name="description" content="<?=$_CONFIG_METADESCRIPTION?>" />
+    <meta name="keyword" content="<?=$_CONFIG_METAKEYWORD?>" />
 
     
 
